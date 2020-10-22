@@ -4,11 +4,11 @@ if (isset($set_modules) && $set_modules == TRUE) {
     $i = isset($modules) ? count($modules) : 0;
 
     $modules[$i]['code']    = basename(__FILE__, '.class.php');
-    $modules[$i]['name']    = 'Payjs-微信收银台';
-    $modules[$i]['desc']    = 'Payjs-微信收银台';
+    $modules[$i]['name']    = 'PAYJS-微信收银台';
+    $modules[$i]['desc']    = 'PAYJS-微信收银台';
     $modules[$i]['is_cod']  = '0';
     $modules[$i]['is_online']  = '1';
-    $modules[$i]['author']  = '';
+    $modules[$i]['author']  = 'PAYJS';
     $modules[$i]['website'] = '';
     $modules[$i]['version'] = '1.0.0';
     $modules[$i]['config']  = array(
